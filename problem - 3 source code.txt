@@ -1,0 +1,3 @@
+Temp_df["From"]=Temp_df.From.str.capitalize()
+Temp_df["To"]  =Temp_df.To.str.capitalize()
+Temp_df

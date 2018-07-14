@@ -1,0 +1,4 @@
+Temp_df=pd.DataFrame()
+Temp_df["From"]=df.From_To.str.split('_').apply(lambda x:x[0])
+Temp_df["To"] = df.From_To.str.split('_').apply(lambda x:x[1])
+Temp_df
